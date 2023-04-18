@@ -3,7 +3,14 @@
     <PropertyGroup>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>
-        <TargetFrameworks>net7.0;net6.0;net48;net481</TargetFrameworks>
+        <Title>DDVersioner</Title>
+        <Description>classes that can create downloadable objects for DepotDownloaderLib</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/WeeXnes/DDVersioner</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/WeeXnes/DDVersioner</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>net7.0</TargetFramework>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
 </Project>
