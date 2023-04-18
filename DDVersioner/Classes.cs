@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
 
 public class VersionFile
 {
@@ -6,6 +8,15 @@ public class VersionFile
     public VersionFile(IList<version> _versions)
     {
         this.versions = _versions;
+    }
+
+    public string ToJsonString()
+    {
+        return JsonConvert.SerializeObject(this);
+    }
+    public static VersionFile FromJsonFile(string path)
+    {
+        return JsonConvert.DeserializeObject<VersionFile>(File.ReadAllText(path));
     }
 }
 public class version
