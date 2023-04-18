@@ -10,7 +10,7 @@
         <RepositoryUrl>https://github.com/WeeXnes/DDVersioner</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <TargetFramework>net7.0</TargetFramework>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
